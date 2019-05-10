@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nuno - Responsive Bootstrap Theme</title>
@@ -10,19 +9,114 @@
 	<link rel="stylesheet" href="css/fixed.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
-<!--- Start Course Section -->
-<div id="course" class="offset">
+<!--- start home section -->
+<div id="home">
 
+	<!--- navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a href="#" class="navbar-brand"><img src="img/nuno.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a href="#home" class="nav-link">home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#cource" class="nav-link">cource</a>
+			</li>
+			<li class="nav-item">
+				<a href="#features" class="nav-link">features</a>
+			</li>
+			<li class="nav-item">
+				<a href="#resources" class="nav-link">resources</a>
+			</li>
+			<li class="nav-item">
+				<a href="#clients" class="nav-link">clients</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contact" class="nav-link">contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>	
+<!--- end navigation -->
+
+<!--- start landing page  setinon -->
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
+		</div>
+	</div>
+</div>
+<div class="caption text-center">
+	<h1>welcome to nuno</h1>
+	<h3>umedy bootstrap4</h3>
+	<a href="#cource" class="btn btn-outline-light btn-lg">get started</a>
+</div>
+<!--- end landing page setinon -->
+
+</div>
+<!--- end  home setinon -->
+
+<!--- start cource section -->
+<div id="cource" class="offset">
 <div class="col-12 narrow text-center">
-	<h1>Nuno Theme Advanced Bootstrap Course</h1>
-	<p class="lead">Learn Bootstrap by creating an advanced Bootstrap 4 Responsive Website Template from scratch, with no steps skipped!</p>
-	<a class="btn btn-secondary btn-md" href="http://bit.ly/advanced-bootstrap-course" target="_blank">94% OFF COUPON "NUNO93"</a>
+	<h1>nuno theme advanced boot strap course</h1>
+	<p class="lead">nuno theme advanced boot strap coursenuno theme advanced boot strap coursenuno theme advanced boot strap coursenuno theme advanced boot strap course</p>
+	<a href="http://bit.ly" class="btn btn-secondary btn-md">bootstrap course</a>
 </div>
+</div>
+<!--- end cource setinon -->
+
+<!--- start features section -->
+<div id="features" class="offset">
+<!--- start jumbtron -->
+<div class="jumbotron">
+<div class="narrow">
+	<div class="col-12">
+		<h3 class="heading">features</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="row text-center">
+
+		<div class="col-md-4">
+			<div class="feature">
+				<i class="fas fa-play-circle fa-4x" data-fa-transform="shring-3 up-5"></i>
+				<h3>custom animation</h3>
+				<P>ANIMATE. CSS AND WAYPOINTS.JS ALLOW FOR SMOOTH ANIMATIONS SCROLLING DOWN THE SITE.</P>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="feature">
+				<i class="fas fa-sliders-h fa-4x" data-fa-transform="shring-4.5 up-4.5"></i>
+				<h3>contents slider</h3>
+				<P>OWL.CAROUSEL.JS MAKES NAVIGATING CONTENT SLIDERS SEAMLESS WITH ITS CONTENT CAROUSEL NAVIGATION</P>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="feature">
+				<i class="fab fa-wpforms-h fa-4x" data-fa-transform="shring-4.5 up-4.5"></i>
+				<h3>contact form</h3>
+				<P>THE BOOTSTRAP HTML FORM WILL SEND DIRECTLY TO YOUR EMAIL ADDRESS USING PHPMALIER</P>
+			</div>
+		</div>
+
+	</div><!---end row -->
+	
+</div><!--- end narrow -->
+</div><!--- end jumbtron -->
 
 </div>
-<!--- End Course Section -->
+<!--- end features setinon -->
+
 
 <!--- Script Source Files -->
 <script src="js/jquery-3.3.1.min.js"></script>
